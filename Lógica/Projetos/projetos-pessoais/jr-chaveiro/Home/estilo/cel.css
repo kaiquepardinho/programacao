@@ -1,0 +1,216 @@
+
+:root {
+    --cor0: #FF6B00;
+    --cor1: #FFD2A8;
+    --cor2: #000000;
+    --cor3: #FFFFFF;
+}
+
+* {
+    background-color: var(--cor0);
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: var(--cor2);
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+i#burguer {
+    background-color: var(--cor2);
+    color: var(--cor3);
+    padding-bottom: 10px;
+
+}
+
+menu {
+    display: none;
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    background-color: var(--cor2);
+    color: var(--cor3);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: -6px;
+    border-top: 2px solid var(--cor3);
+}
+
+menu > ul > li > a:hover {
+    color: var(--cor0);
+}
+
+article#foto01 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+img#f1 {
+    border-bottom: 2px solid var(--cor3);
+    height: 100%;
+    width: 100%;
+}
+
+section#paginas {
+    height: 100%;
+    width: 100%;
+}
+
+article.pglinks {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+article.pglinks > a {
+    border-radius: 20px;
+}
+
+a#linkl01 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    background-color: var(--cor3);
+    background-image: url(../img-cel/foto03-automoveis.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    width: 210px;
+}
+
+h4#linkt01 {
+    margin-left: 25px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+a#linkl02 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    background-color: var(--cor3);
+    background-image: url(../img-cel/foto04-residencias.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    width: 210px;
+}
+
+h4#linkt02 {
+    margin-left: 25px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+a#linkl03 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -35px;
+    margin-bottom: -20px;
+    background-color: var(--cor3);
+    background-image: url(../img-cel/foto05-depoimentos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    width: 210px;
+}
+
+h4#linkt03 {
+    margin-left: 22px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+a#linkl04 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -35px;
+    margin-bottom: -20px;
+    background-color: var(--cor3);
+    background-image: url(../img-cel/foto06-confecção.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    width: 210px;
+}
+
+h4#linkt04 {
+    margin-left: 35px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+article#foto02 {
+    height: 100%;
+    width: 100%;
+}
+
+img#f2 {
+    height: 100%;
+    width: 100%;
+    border-top: 2px solid var(--cor3);
+    border-bottom: 2px solid var(--cor3);
+}
+
+article#contato {
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+article#contato > h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+article#contato > p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+article#contato > p > a {
+    background-color: var(--cor2);
+    color: var(--cor3);
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+article#contato > p > a:hover {
+    background-color: var(--cor0);
+    border: 1px solid var(--cor3);
+}
+
+footer > p {
+    background-color: var(--cor2);
+    color: var(--cor3);
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid var(--cor3);
+}

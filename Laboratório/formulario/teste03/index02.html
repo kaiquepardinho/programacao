@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Teste 10</legend>
+            <p>
+                <label for="iano">Nascido:</label>
+                <input type="Number" id="iano"
+                min="1900"
+                max="2022"
+                oninput="calidade()">
+            </p>
+
+            <label for="iid">Sua Idade:</label>
+            <output id="iid">0</output>
+        </fieldset>
+
+        <p><input type="submit"></p>
+        <p><input type="reset"></p>
+    </form>
+
+
+    <script>
+        function calidade() {
+            var idatual = new Date().getFullYear()
+            iid.innerHTML = Number(idatual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+}
+
+#conteiner-header {
+    height: 100%;
+}
+
+#div-logo {
+    height: 100%;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+#navi {
+    height: 100%;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#itens {
+    display: none;
+}
+
+ul {
+    height: 100%;
+}
+
+#sec1 {
+    height: 180px;
+}
+
+#sec1 > h1 {
+    font-size: 28px;
+    position: relative;
+    top: 40px;
+}
+
+#sec2 {
+    width: 70%;
+    text-align: justify;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+
+#sec2 > p {
+    margin-top: 20px;
+}
+
+#sec3 {
+    margin-top: -90px;
+    height: 300px;
+    width: 70%;
+    text-align: justify;
+}
+
+#sec3 > h2 {
+    width: 280px;
+}
+
+table {
+    width: 280px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#sec4 {
+    margin-top: -20px;
+    height: 200px;
+    width: 70%;
+    text-align: justify;
+}
+
+#sec4 > h2{
+    margin-bottom: 20px;
+}
+
+#sec4 > p {
+    margin-bottom: 20px;
+}
+
+#sec4 > p > a {
+    background-color: rgba(0, 0, 0, 0.616);
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid black;
+}
+
+#sec5 {
+    margin-top: 0px;
+    height: 200px;
+    width: 70%;
+    text-align: justify;
+}
+
+#sec5 > h2{
+    margin-bottom: 20px;
+}
+
+#sec5 > p{
+    margin-bottom: 20px;
+}
+
+#maps {
+    height: 400px;
+    width: 70%;
+    
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+@media (max-width:1300px) {
+    #sec1 {
+        height: 160px;
+    }
+    
+    #sec1 > h1 {
+        font-size: 28px;
+        position: relative;
+        top: 60px;
+    }
+
+    #sec2 {
+        text-align: justify;
+        margin-top: -15%;
+        margin-bottom: 12%
+    }
+}
+
+@media (max-width:900px) {
+    #sec1 {
+        height: 180px;
+    }
+    
+    #sec1 > h1 {
+        font-size: 28px;
+        position: relative;
+        top: 40px;
+    }
+
+    #sec2 {
+        text-align: justify;
+        margin-top: -20%;
+        margin-bottom: 12%;
+    }
+
+    #sec3 > table {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width:600px) {
+    #sec1 {
+        height: 150px;
+    }
+    
+    #sec1 > h1 {
+        font-size: 28px;
+        position: relative;
+        top: 40px;
+    }
+    
+    #sec2 {
+        width: 80%;
+        text-align: justify;
+        margin-top: -15%;
+        margin-bottom: 8%
+    }
+    
+    #sec3 {
+        width: 80%;
+    }
+
+    #sec4 {
+        width: 80%;
+    }
+    
+    #sec5 {
+        width: 80%;
+    }
+
+    #maps {
+        width: 80%;
+    }
+
+    iframe {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width:785px) {
+
+    header {
+        height: 70px;
+    }
+    
+    #conteiner-header {
+        height: 100%;
+    }
+    
+    #div-logo {
+        height: 100%;
+    }
+    
+    #logo {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    #menu-icon {
+        display: inline-block;
+	    padding: 0 10px;
+	    font-size: 27px;
+    }
+
+    #esp {
+        border-top: 2px solid var(--cor3);
+    }
+}

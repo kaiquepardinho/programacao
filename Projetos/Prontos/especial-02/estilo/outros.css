@@ -1,0 +1,198 @@
+@media print {
+
+}
+
+@media screen and (min-width: 801px){
+    header {display: none;}
+    main {display: none;}
+    footer {display: none;}
+    i#burguer {display: none;}
+    h1#titulo {display: none;}
+    img#logo {display: none;}
+    #superior01 {display: none;}
+
+    :root {
+        --cor0: #FF6B00;
+        --cor1: #FFD2A8;
+        --cor2: #000000;
+        --cor3: #FFFFFF;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+
+    #itens2 {
+        display: none;
+        position: fixed;
+        height: 100%;
+        width: 200px;
+    }
+
+    #itens2 > ul > li > a {
+        display: block;
+        background-color: var(--cor2);
+        color: var(--cor3);
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid var(--cor3);
+        border-right: 2px solid var(--cor3);
+    } 
+
+    #esp2 {
+        display: block;
+        background-color: var(--cor2);
+        color: var(--cor3);
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        padding-top: 100%;
+        padding-bottom: 100%;
+        border-right: 2px solid var(--cor3);
+    }
+    
+    #itens2 > ul > li > a:hover {
+        color: var(--cor0);
+    }
+
+    main#outra01 {
+        display: inline-block;
+        float: left;
+    }
+    
+    section#cont {
+        box-sizing: border-box;
+        background-color: var(--cor0);
+    }
+    
+    aside#boxlogo{
+        float: left;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    img#logo2 {
+        display: inline-block;
+        margin-top: 40px;
+        height: 140px;
+        width: 140px;
+    }
+
+    h1#titulo2 {
+        width: 300px;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 65px;
+    } 
+    
+    p#txbotao1 {
+        background-color: var(--cor2);
+        text-align: center;
+        height: 40px;
+        width: 100px;
+        margin-left: 65px;
+        border: 2px solid var(--cor3);
+        float: left;
+        position: relative;
+        top: 5%;
+    }
+    
+    p#txbotao1:hover {
+        background-color: var(--cor0);
+        display: block;
+    }
+    
+    a#linkbotao1 {
+        color: var(--cor3);
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    p#txbotao2 {
+        background-color: var(--cor2);
+        text-align: center;
+        height: 40px;
+        width: 100px;
+        margin-left: 35px;
+        border: 2px solid var(--cor3);
+        float: left;
+        position: relative;
+        top: 5%;
+    }
+    
+    p#txbotao2:hover {
+        background-color: var(--cor0);
+    }
+    
+    a#linkbotao2 {
+        color: var(--cor3);
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #art02 {
+        height: 100%;
+        margin-left: -29px;
+    }
+
+    #div001 {
+        float: left;
+    }
+
+    #burguer2 {
+        font-size: 32px;
+    }
+
+    #div002 {
+        float: right;
+    }
+    
+    aside#boxchave {
+        float: left;
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+        position: fixed;
+        left: 37%;
+        top: 61%;
+    }
+    
+    img#chave {
+        margin-top: 80px;
+        height: 217px;
+        width: 217px;
+    }
+    
+    aside#boxright {
+        box-sizing: border-box;
+        background-color: var(--cor0);    
+        height: 100%;
+        width: 45%;
+        float: right;
+        border-left: 2px solid var(--cor3);
+    }
+    
+    img#fundo1 {
+        height: 100%;
+        width: 100%;
+        margin-bottom: -4px;
+    }
+}

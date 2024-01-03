@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php">
+
+        <!--
+            label: Funciona como uma etiqueta que que atrela o id ou name a um elemento ou tag
+        -->
+
+        <fieldset>
+            <legend>Teste  01</legend>
+            <label for="imn">
+                <p>Nome:
+            </label> <input type="text" name="nm" id="inm" required placeholder="Digite algo aqui..." maxlength="20" size="50" autocomplete="name"></p>
+            <label for="isid">
+                <p>Idade:
+            </label> <input type="number" name="sid" id="isid" max="10" min="5"></p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Teste 02</legend>
+            <p><label for="imes">Ano: </label><input type="month" id="imes"></p>
+
+            <p><label for="idia">Dia: </label><input type="date" id="idia"></p>
+
+            <p><label for="ihr">Horas: </label><input type="time" id="ihr"></p>
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend>Teste  03</legend>
+            <label for="imn">
+                <p>Email:
+            </label> <input type="iemail" name="nemail" id="iemail" required placeholder="Digite algo aqui..." maxlength="20" size="50" autocomplete="email"></p>
+
+            <label for="isid">
+                <p>Telefone:
+            </label> <input type="tel" name="stele" id="itele" autocomplete="tel" ></p>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Teste  04</legend>
+
+            <input type="checkbox" id="ibas"><label for="ibas">Basquete</label>
+
+            <br>
+
+            <input type="checkbox" id="ifut"> <label for="ifut">Futebol</label>
+
+            <br>
+
+            <input type="checkbox" id="ivol"> <label for="ivol">Volei</label>   
+        </fieldset>
+
+        <fieldset>
+            <legend>Teste  05</legend>
+
+            <input type="radio" name="sexo" id="imas"><label for="ifem">Masculino</label>
+            <br>
+
+            <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Teste 06</legend>
+            <p><label for="icor">Cor </label><input type="color" id="icor"></p>
+            <br>
+
+            <p><label for="iniv">Nivel:
+            </label> <input type="range" id="iniv" min="1" max="10" step="2" value="2"></p>
+
+            <p><label for="iar">Arquivo:</label> <input type="file" id="iar"></p>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Teste 07</legend>
+            <p>
+                <label for="iame"></label>
+                <select name="anime" id="iame">
+                    <option value="" selected> Escolha</option>
+                <optgroup label="Shonen">
+                    <option value="NT">Naruto</option>
+                    <option value="OP">One Piece</option>
+                    <option value="DBZ">Dragon Ball Z</option>
+                </optgroup>
+                <optgroup label="Outros">
+                    <option value="KM">Komi-chan</option>
+                    <option value="KB">Koruko</option>
+                </optgroup>
+                </select>
+            </p>
+
+            <label for="iprof">Profissão</label>
+            <input type="text" id="iprof" list="ltp">
+            <datalist id="ltp">
+                <option>Administador</option>
+                <option>Contabilidade</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+
+            <label for="imgs">Mensagem</label>
+            <textarea name="nmgs" id="imgs" cols="60" rows="20">Quem está lendo é gay...</textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Teste 08</legend>
+            <p>
+                <label for="in1">Numero 01:</label>
+                <input type="number" id="in1" min="0" max="10" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+
+            <p>
+                <label for="in2">Numero 01:</label>
+                <input type="number" id="in2" min="0" max="10" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+
+            <p>
+                <label for="isoma">Soma: </label>
+                <output id="isoma">0</output>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Teste 09</legend>
+            <p>
+                <label for="tes01">Nivel:
+                </label>
+                <input type="range"  id="tes01" min="0" max="10" value="5" oninput="tes02.innerHTML = Number(tes01.value)"><output id="tes02">5</output></p>
+
+            
+
+            <p>
+                <label for="inum">Número: </label>
+                <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+                <output id="ival">5</output>
+              </p>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Teste 10</legend>
+            <label for="iano">Nascido:</label>
+            <input type="Number" id="ino"
+            min="1900"
+            max="2022"
+            oninput="calidade()">
+
+            <label for="iid">Sua Idade:</label>
+            <output id="iid">0</output>
+
+        </fieldset>
+
+        <p><input type="submit"></p>
+    </form>
+
+
+    <script>
+        function calidade() {
+            var idatual = new Date().getFullYear()
+            iid.innerHTML = Number(idatual) = Number(iano.value)
+        }
+    </script>
+</body>
+</html>

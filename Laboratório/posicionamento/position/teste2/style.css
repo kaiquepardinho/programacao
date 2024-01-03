@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+
+}
+
+
+div#one {
+    box-sizing: border-box;
+    background-color: darkcyan;
+    height: 100%;
+    width: 50%;
+    float: left;
+
+}
+
+div#two {
+    box-sizing: border-box;
+    background-color: darkorange;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+div#tree {
+    box-sizing: border-box;
+    background-color: mediumvioletred;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

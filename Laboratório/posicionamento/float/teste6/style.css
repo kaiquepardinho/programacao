@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+div#one {
+    box-sizing: border-box;
+    background-color: darkcyan;
+    height: 400px;
+    width: 50%;
+
+}
+
+div#two {
+    box-sizing: border-box;
+    background-color: darkorange;
+    width: 50%;
+    padding-top: 25%;
+    float: left;
+    position: relative;
+    top: 57.3%;
+}

@@ -1,0 +1,198 @@
+:root {
+    --cor0: #000000;
+    --cor1: #7a7a7a;
+    --cor2: #FFFFFF;
+    --cor3: #d63a25;
+    --cor4: #fc4c35;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.text00 {
+    color: var(--cor0);
+}
+
+.text01 {
+    color: var(--cor1);
+}
+
+.text02 {
+    color: var(--cor2);
+}
+
+.cor00 {
+    background-color: var(--cor0);
+}
+
+.cor01 {
+    background-color: var(--cor1);
+}
+
+.cor02 {
+    background-color: var(--cor2);
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h33 {
+	height: 33.33333333%;
+}
+
+.w30 {
+	width: 30%;
+}
+
+.w33 {
+	width: 33.3%;
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.w70 {
+	width: 70%;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-header{
+	display: flex;
+    max-width: 960px;
+	padding: 0 2%;
+	margin: auto;
+    flex-wrap: wrap;
+}
+
+.posi-y {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.posi-x {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.posi-all {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.marg-top {
+    margin-left: 0px;
+}
+
+.marg-bottom {
+    margin-left: 0px;
+}
+
+.marg-left {
+    margin-left: 40px;
+}
+
+.marg-right {
+    margin-left: 0px;
+}
+
+.padd-top {
+    margin-left: 0px;
+}
+
+.padd-bottom {
+    margin-left: 0px;
+}
+
+.padd-left {
+    margin-left: 0px;
+}
+
+.padd-right {
+    margin-left: 0px;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.center{
+	text-align: center;
+}
+
+.order1{
+	order: 1;
+}
+
+.order2{
+	order: 2;
+}
+
+.order3{
+	order: 3;
+}
+
+.li-nav {
+    display: inline-block;
+	padding: 0 20px;
+	font-size: 17px;
+}
+
+.a-nav {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+.li-menu {
+    display: none;
+}
+
+@media (max-width:785px) {
+    .li-nav {
+        display: none;
+    }
+
+    .li-menu {
+        padding-top: 23px;
+        padding-bottom: 23px;
+        display: block;
+        border-bottom: 2px solid var(--cor3);
+    }
+
+    .a-menu {
+        color: var(--cor2);
+        text-decoration: none;
+    }
+}

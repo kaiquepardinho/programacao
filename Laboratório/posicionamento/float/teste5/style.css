@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+
+}
+
+div#one {
+    box-sizing: content-box;
+    background-color: darkcyan;
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.two {
+    float: left;
+    box-sizing: border-box;
+    background-color: darkorange;
+    height: 50px;
+    width: 50px;
+    border: 1px solid chartreuse;
+ 
+}

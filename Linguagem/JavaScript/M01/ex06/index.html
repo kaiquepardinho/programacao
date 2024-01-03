@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: aqua;
+            color: brown;
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos Dom</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <p>kkkkkLorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div>Clique em mim</div>
+    <script>
+        //window.document.write(window.navigator.appVersion)//
+
+        /*var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write(p1.innerText)*/
+
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+
+        p1.style.color = 'blue'
+        corpo.style.backgroundColor = 'green'
+    
+    </script>
+</body>
+</html>

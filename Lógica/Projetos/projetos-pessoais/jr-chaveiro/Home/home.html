@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JR Chaveiro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/cel.css">
+</head>
+<body>
+    <header>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                    <li><a href="#">Residencias</a></li>
+                    <li><a href="#">Automoveis</a></li>
+                </ul>
+            </menu>
+    </header>
+
+    <main>
+        <article id="foto01">
+            <img src="img-cel/foto08.png" alt="foto01" id="f1">
+        </article>
+
+        <section id="paginas">
+            <article class="pglinks">
+                <a href="#" id="linkl01"></a>
+                <h4 id="linkt01">Residencias</h4>
+            </article>
+
+            <article class="pglinks">
+                <a href="#" id="linkl02"></a>
+                <h4 id="linkt02">Automoveis</h4>
+            </article>
+
+            <article class="pglinks">
+                <a href="#" id="linkl03"></a>
+                <h4 id="linkt03">Depoimentos</h4>
+            </article>
+
+            <article class="pglinks">
+                <a href="#" id="linkl04"></a>
+                <h4 id="linkt04">Cofecção</h4>
+            </article>
+        </section>
+
+        <article id="foto02">
+                <img src="img-cel/foto02.jpg" alt="foto02" id="f2">
+        </article>
+
+        <article id="contato">
+            <h3 class="cta">Entre em contato!</h3>
+            <p><a href="#">Contato</a></p>
+        </article>
+    </main>
+
+    <footer>
+        <p>JR Chaveiro - Atendimento 24 horas</p>
+    </footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

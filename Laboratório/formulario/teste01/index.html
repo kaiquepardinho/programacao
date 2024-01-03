@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="on" method="get">
+        <!--
+            label: Funciona como uma etiqueta que que atrela o id ou name a um elemento ou tag
+
+            autocomplete: corresponde se voce vai querer se quer que a caixinha se autocomplete
+
+            get: aparece na url as informações do usuario (não usar em dados senciveis *limite de 3 mil bites) 
+
+            post: não aparece na url as informações do usuario
+        -->
+        <label for="imn">
+            <p>Nome:
+        </label> <input type="text" name="nm" id="inm"></p>
+        <label for="isnm">
+            <p>Sobrenome:
+        </label> <input type="text" name="snm" id="isnm"></p>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>
